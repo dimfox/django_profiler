@@ -15,6 +15,6 @@ The settings.PROFILER is a dictionary that can have the following key words:
    * top_n_sql: Only effective if display_sql is 2. Display top n most time consuming sql queries.
    * logger: Output target for profiler, sql queryies informations. This must be a callable. Default to logging.info
 
-Adopted from:
+Adapted from:
    * https://gist.github.com/1229681
    * https://gist.github.com/1229685
